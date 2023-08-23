@@ -1,5 +1,5 @@
 body {font-family: Arial, Helvetica, sans-serif;}
-/* ----- navigation bar style -----*/
+/* ------------------ navigation bar style ------------------ */
 .main-nav{
     background-color: #F7F7F8;
 }
@@ -12,6 +12,11 @@ a {
 
 #selected{color: #5762D5;}
 
+/* ------------------ intro section ------------------ */
+#intro {
+    background-color: #3C404A;
+    color: white;
+}
 .product-img {
     border: solid 2px #3C404A;
     border-radius: 25px;
