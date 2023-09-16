@@ -1,5 +1,3 @@
-var n1 = "10";
-var n2 = "text";
-
-console.log(n1 + n2)
-
+function becomeMember(){
+    console.log("Welcome! You are a member now.")
+}
