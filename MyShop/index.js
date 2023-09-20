@@ -1,11 +1,13 @@
-var friends = ["Jack", "Lucy", "Olive"]
+var breakTime = []
+var round = 1;
 
-var username = prompt("What is your name?")
-
-if(friends.includes(username)){
-    console.log("You can view the content.")
+function addBreakTime(){
+    if(round%4 == 0){
+        breakTime.push(15);
+    }
+    else{
+        breakTime.push(5);
+    }
+    round++;
+    console.log(breakTime)
 }
-else{
-    console.log("You don't have access!")
-}
-
